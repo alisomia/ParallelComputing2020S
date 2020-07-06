@@ -1,0 +1,383 @@
+
+@article{demmel_communication_nodate,
+	title = {Communication Lower Bounds and Optimal Algorithms for Programs that Reference Arrays},
+	pages = {42},
+	author = {Demmel, James},
+	langid = {english},
+	keywords = {comm avoiding, lower bound, theory},
+	file = {Demmel - Communication Lower Bounds and Optimal Algorithms .pdf:F\:\\Linting\\zotero\\storage\\MQRJBU3E\\Demmel - Communication Lower Bounds and Optimal Algorithms .pdf:application/pdf;EECS-2008-89.pdf:F\:\\Linting\\reading\\comm-avoiding\\EECS-2008-89.pdf:application/pdf}
+}
+
+@article{demmel_communication-optimal_2012,
+	title = {Communication-optimal Parallel and Sequential {QR} and {LU} Factorizations},
+	volume = {34},
+	issn = {1064-8275, 1095-7197},
+	url = {http://epubs.siam.org/doi/10.1137/080731992},
+	doi = {10.1137/080731992},
+	abstract = {We present parallel and sequential dense {QR} factorization algorithms that are both optimal (up to polylogarithmic factors) in the amount of communication they perform, and just as stable as Householder {QR}. Our ﬁrst algorithm, Tall Skinny {QR} ({TSQR}), factors m × n matrices in a one-dimensional (1-D) block cyclic row layout, and is optimized for m n. Our second algorithm, {CAQR} (Communication-Avoiding {QR}), factors general rectangular matrices distributed in a two-dimensional block cyclic layout. It invokes {TSQR} for each block column factorization.},
+	pages = {A206--A239},
+	number = {1},
+	journaltitle = {{SIAM} Journal on Scientific Computing},
+	shortjournal = {{SIAM} J. Sci. Comput.},
+	author = {Demmel, James and Grigori, Laura and Hoemmen, Mark and Langou, Julien},
+	urldate = {2020-06-23},
+	date = {2012-01},
+	langid = {english},
+	file = {Demmel 等。 - 2012 - Communication-optimal Parallel and Sequential QR a.pdf:F\:\\Linting\\zotero\\storage\\IHPXDVW6\\Demmel 等。 - 2012 - Communication-optimal Parallel and Sequential QR a.pdf:application/pdf}
+}
+
+@inproceedings{mohiyuddin_minimizing_2009,
+	title = {Minimizing communication in sparse matrix solvers},
+	doi = {10.1145/1654059.1654096},
+	abstract = {Data communication within the memory system of a single processor node and between multiple nodes in a system is the bottleneck in many iterative sparse matrix solvers like {CG} and {GMRES}. Here k iterations of a conventional implementation perform k sparse-matrix-vector-multiplications and Ω(k) vector operations like dot products, resulting in communication that grows by a factor of Ω(k) in both the memory and network. By reorganizing the sparse-matrix kernel to compute a set of matrix-vector products at once and reorganizing the rest of the algorithm accordingly, we can perform k iterations by sending O(log P) messages instead of O(k · log P) messages on a parallel machine, and reading the matrix A from {DRAM} to cache just once, instead of k times on a sequential machine. This reduces communication to the minimum possible. We combine these techniques to form a new variant of {GMRES}. Our shared-memory implementation on an 8-core Intel Clovertown gets speedups of up to 4.3x over standard {GMRES}, without sacrificing convergence rate or numerical stability.},
+	eventtitle = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis},
+	pages = {1--12},
+	booktitle = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis},
+	author = {Mohiyuddin, Marghoob and Hoemmen, Mark and Demmel, James and Yelick, Katherine},
+	date = {2009-11},
+	note = {{ISSN}: 2167-4337},
+	keywords = {8-core Intel Clovertown, cache, cache storage, {CG}, convergence rate, data communication, dot product, {DRAM}, {DRAM} chips, {GMRES}, iterative methods, iterative sparse matrix solver, matrix multiplication, memory system, message, parallel machine, parallel machines, sequential machine, shared memory systems, shared-memory implementation, single processor node, sparse matrices, sparse-matrix kernel, sparse-matrix-vector-multiplication, vector operation},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\HUT6TL58\\Mohiyuddin 等。 - 2009 - Minimizing communication in sparse matrix solvers.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\QCNNFSML\\6375534.html:text/html}
+}
+
+@article{grigori_enlarged_2016,
+	title = {Enlarged Krylov Subspace Conjugate Gradient Methods for Reducing Communication},
+	volume = {37},
+	issn = {0895-4798, 1095-7162},
+	url = {http://epubs.siam.org/doi/10.1137/140989492},
+	doi = {10.1137/140989492},
+	abstract = {In this paper we introduce a new approach for reducing communication in Krylov subspace methods that consists of enlarging the Krylov subspace by a maximum of t vectors per iteration, based on the domain decomposition of the graph of A.The obtained enlarged Krylov subspace Kt,{kpA}, r0q is a superset of the Krylov subspace {KkpA}, r0q, {KkpA}, r0q Ă Kt,k`1pA, r0q. Thus it is possible to search for the solution of the system Ax “ b in Kt,{kpA}, r0q instead of {KkpA}, r0q. Moreover, we show in this paper that the enlarged Krylov projection subspace methods lead to faster convergence in terms of iterations and parallelizable algorithms with less communication, with respect to Krylov methods.},
+	pages = {744--773},
+	number = {2},
+	journaltitle = {{SIAM} Journal on Matrix Analysis and Applications},
+	shortjournal = {{SIAM} J. Matrix Anal. \& Appl.},
+	author = {Grigori, Laura and Moufawad, Sophie and Nataf, Frederic},
+	urldate = {2020-06-27},
+	date = {2016-01},
+	langid = {english},
+	file = {Grigori 等。 - 2016 - Enlarged Krylov Subspace Conjugate Gradient Method.pdf:F\:\\Linting\\zotero\\storage\\MZ4DDTXD\\Grigori 等。 - 2016 - Enlarged Krylov Subspace Conjugate Gradient Method.pdf:application/pdf}
+}
+
+@article{grigori_enlarged_2016-1,
+	title = {Enlarged Krylov Subspace Conjugate Gradient Methods for Reducing Communication},
+	volume = {37},
+	issn = {0895-4798, 1095-7162},
+	url = {http://epubs.siam.org/doi/10.1137/140989492},
+	doi = {10.1137/140989492},
+	abstract = {In this paper we introduce a new approach for reducing communication in Krylov subspace methods that consists of enlarging the Krylov subspace by a maximum of t vectors per iteration, based on the domain decomposition of the graph of A.The obtained enlarged Krylov subspace Kt,{kpA}, r0q is a superset of the Krylov subspace {KkpA}, r0q, {KkpA}, r0q Ă Kt,k`1pA, r0q. Thus it is possible to search for the solution of the system Ax “ b in Kt,{kpA}, r0q instead of {KkpA}, r0q. Moreover, we show in this paper that the enlarged Krylov projection subspace methods lead to faster convergence in terms of iterations and parallelizable algorithms with less communication, with respect to Krylov methods.},
+	pages = {744--773},
+	number = {2},
+	journaltitle = {{SIAM} Journal on Matrix Analysis and Applications},
+	shortjournal = {{SIAM} J. Matrix Anal. \& Appl.},
+	author = {Grigori, Laura and Moufawad, Sophie and Nataf, Frederic},
+	urldate = {2020-06-28},
+	date = {2016-01},
+	langid = {english},
+	file = {Grigori 等。 - 2016 - Enlarged Krylov Subspace Conjugate Gradient Method.pdf:F\:\\Linting\\zotero\\storage\\Q3SHFLT5\\Grigori 等。 - 2016 - Enlarged Krylov Subspace Conjugate Gradient Method.pdf:application/pdf}
+}
+
+@inproceedings{demmel_avoiding_2008,
+	location = {Miami, {FL}, {USA}},
+	title = {Avoiding communication in sparse matrix computations},
+	isbn = {978-1-4244-1693-6},
+	url = {http://ieeexplore.ieee.org/document/4536305/},
+	doi = {10.1109/IPDPS.2008.4536305},
+	eventtitle = {Distributed Processing Symposium ({IPDPS})},
+	pages = {1--12},
+	booktitle = {2008 {IEEE} International Symposium on Parallel and Distributed Processing},
+	publisher = {{IEEE}},
+	author = {Demmel, James and Hoemmen, Mark and Mohiyuddin, Marghoob and Yelick, Katherine},
+	urldate = {2020-06-28},
+	date = {2008-04},
+	langid = {english},
+	note = {{ISSN}: 1530-2075},
+	file = {Demmel.pdf:F\:\\Linting\\zotero\\storage\\UQFXAZIA\\Demmel.pdf:application/pdf}
+}
+
+@inproceedings{grigori_communication_2008,
+	title = {Communication Avoiding Gaussian elimination},
+	doi = {10.1109/SC.2008.5214287},
+	abstract = {We present {CALU}, a Communication Avoiding algorithm for the {LU} factorization of dense matrices distributed in a two-dimensional cyclic layout. The algorithm is based on a new pivoting strategy, which is stable in practice. The new algorithm is optimal (up to polylogarithmic factors) in the amount of communication it performs. Our experiments show that {CALU} leads to a reduction in the parallel time, in particular when the latency time is an important factor of the overall time. The factorization of a block-column, a subroutine of {CALU}, outperforms the corresponding routine {PDGETF}2 from {ScaLAPACK} up to a factor of 4.37 on an {IBM} {POWER} 5 system and up to a factor of 5.58 on a Cray {XT}4 system. On square matrices of order 104, {CALU} outperforms the corresponding routine {PDGETRF} from {ScaLAPACK} by a factor of 1.24 on {IBM} {POWER} 5 and by a factor of 1.31 on Cray {XT}4.},
+	eventtitle = {{SC} '08: Proceedings of the 2008 {ACM}/{IEEE} Conference on Supercomputing},
+	pages = {1--12},
+	booktitle = {{SC} '08: Proceedings of the 2008 {ACM}/{IEEE} Conference on Supercomputing},
+	author = {Grigori, Laura and Demmel, James W. and Xiang, Hua},
+	date = {2008-11},
+	note = {{ISSN}: 2167-4337},
+	keywords = {Algorithms, block-column factorization, communication avoiding algorithm, Cray {XT}4 system, Delay, dense matrices factorization, Gaussian elimination, {IBM} {POWER} 5 system, latency time, matrix decomposition, parallel algorithms, {PDGETF}2, {ScaLAPACK}, two-dimensional cyclic layout},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\FMHSFS8H\\Grigori 等。 - 2008 - Communication Avoiding Gaussian elimination.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\9Z5PQ6YG\\5214287.html:text/html}
+}
+
+@inproceedings{mohiyuddin_minimizing_2009-1,
+	location = {Portland, Oregon},
+	title = {Minimizing communication in sparse matrix solvers},
+	isbn = {978-1-60558-744-8},
+	url = {http://dl.acm.org/citation.cfm?doid=1654059.1654096},
+	doi = {10.1145/1654059.1654096},
+	abstract = {Data communication within the memory system of a single processor node and between multiple nodes in a system is the bottleneck in many iterative sparse matrix solvers like {CG} and {GMRES}. Here k iterations of a conventional implementation perform k sparse-matrix-vector-multiplications and Ω(k) vector operations like dot products, resulting in communication that grows by a factor of Ω(k) in both the memory and network. By reorganizing the sparse-matrix kernel to compute a set of matrix-vector products at once and reorganizing the rest of the algorithm accordingly, we can perform k iterations by sending O(log P ) messages instead of O(k · log P ) messages on a parallel machine, and reading the matrix A from {DRAM} to cache just once, instead of k times on a sequential machine. This reduces communication to the minimum possible. We combine these techniques to form a new variant of {GMRES}. Our shared-memory implementation on an 8-core Intel Clovertown gets speedups of up to 4.3× over standard {GMRES}, without sacriﬁcing convergence rate or numerical stability.},
+	eventtitle = {the Conference},
+	pages = {1},
+	booktitle = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis - {SC} '09},
+	publisher = {{ACM} Press},
+	author = {Mohiyuddin, Marghoob and Hoemmen, Mark and Demmel, James and Yelick, Katherine},
+	urldate = {2020-06-28},
+	date = {2009},
+	langid = {english},
+	file = {Mohiyuddin 等。 - 2009 - Minimizing communication in sparse matrix solvers.pdf:F\:\\Linting\\zotero\\storage\\IMNH9GPR\\Mohiyuddin 等。 - 2009 - Minimizing communication in sparse matrix solvers.pdf:application/pdf}
+}
+
+@article{hoemmen_communication-avoiding_nodate,
+	title = {Communication-avoiding Krylov subspace methods},
+	pages = {358},
+	author = {Hoemmen, Mark Frederick},
+	langid = {english},
+	file = {Hoemmen - Communication-avoiding Krylov subspace methods.pdf:F\:\\Linting\\zotero\\storage\\NNP7XPVB\\Hoemmen - Communication-avoiding Krylov subspace methods.pdf:application/pdf}
+}
+
+@article{grigori_introduction_nodate,
+	title = {Introduction to communication avoiding linear algebra algorithms in high performance computing},
+	pages = {11},
+	author = {Grigori, Laura and Rocquencourt, Inria},
+	langid = {english},
+	file = {Grigori 和 Rocquencourt - Introduction to communication avoiding linear alge.pdf:F\:\\Linting\\zotero\\storage\\TTSW6L23\\Grigori 和 Rocquencourt - Introduction to communication avoiding linear alge.pdf:application/pdf}
+}
+
+@article{ballard_communication_2014,
+	title = {Communication lower bounds and optimal algorithms for numerical linear algebra},
+	volume = {23},
+	issn = {0962-4929, 1474-0508},
+	url = {https://www.cambridge.org/core/product/identifier/S0962492914000038/type/journal_article},
+	doi = {10.1017/S0962492914000038},
+	abstract = {The traditional metric for the efficiency of a numerical algorithm has been the number of arithmetic operations it performs. Technological trends have long been reducing the time to perform an arithmetic operation, so it is no longer the bottleneck in many algorithms; rather,
+              communication
+              , or moving data, is the bottleneck. This motivates us to seek algorithms that move as little data as possible, either between levels of a memory hierarchy or between parallel processors over a network. In this paper we summarize recent progress in three aspects of this problem. First we describe lower bounds on communication. Some of these generalize known lower bounds for dense classical
+              (O(n
+              3
+              )) matrix multiplication to all direct methods of linear algebra, to sequential and parallel algorithms, and to dense and sparse matrices. We also present lower bounds for Strassen-like algorithms, and for iterative methods, in particular Krylov subspace methods applied to sparse matrices. Second, we compare these lower bounds to widely used versions of these algorithms, and note that these widely used algorithms usually communicate asymptotically more than is necessary. Third, we identify or invent new algorithms for most linear algebra problems that do attain these lower bounds, and demonstrate large speed-ups in theory and practice.},
+	pages = {1--155},
+	journaltitle = {Acta Numerica},
+	shortjournal = {Acta Numerica},
+	author = {Ballard, G. and Carson, E. and Demmel, J. and Hoemmen, M. and Knight, N. and Schwartz, O.},
+	urldate = {2020-06-28},
+	date = {2014-05},
+	langid = {english},
+	file = {Ballard 等。 - 2014 - Communication lower bounds and optimal algorithms .pdf:F\:\\Linting\\zotero\\storage\\ZCMPH2F7\\Ballard 等。 - 2014 - Communication lower bounds and optimal algorithms .pdf:application/pdf}
+}
+
+@inproceedings{devarakonda_avoiding_2018,
+	title = {Avoiding Synchronization in First-Order Methods for Sparse Convex Optimization},
+	doi = {10.1109/IPDPS.2018.00051},
+	abstract = {Parallel computing has played an important role in speeding up convex optimization methods for big data analytics and large-scale machine learning ({ML}). However, the scalability of these optimization methods is inhibited by the cost of communicating and synchronizing processors in a parallel setting. Iterative {ML} methods are particularly sensitive to communication cost since they often require communication every iteration. In this work, we extend well-known techniques from Communication-Avoiding Krylov subspace methods to first-order, block coordinate descent methods for Support Vector Machines and Proximal Least-Squares problems. Our Synchronization-Avoiding ({SA}) variants reduce the latency cost by a tunable factor of 's' at the expense of a factor of 's' increase in flops and bandwidth costs. We show that the {SA}-variants are numerically stable and can attain large speedups of up to 5.1x on a Cray {XC}30 supercomputer.},
+	eventtitle = {2018 {IEEE} International Parallel and Distributed Processing Symposium ({IPDPS})},
+	pages = {409--418},
+	booktitle = {2018 {IEEE} International Parallel and Distributed Processing Symposium ({IPDPS})},
+	author = {Devarakonda, Aditya and Fountoulakis, Kimon and Demmel, James and Mahoney, Michael W.},
+	date = {2018-05},
+	note = {{ISSN}: 1530-2075},
+	keywords = {Acceleration, Big Data, big data analytics, block coordinate descent methods, comm avoiding, Communication-Avoiding Krylov subspace methods, Convergence, Convex functions, convex optimization methods, convex programming, Coordinate Descent Methods, Cray {XC}30 supercomputer, data analysis, first-order methods, iterative methods, iterative {ML} methods, large-scale machine learning, learning (artificial intelligence), least squares approximations, mathematics computing, optimization, Optimization, parallel computing, parallel processing, Program processors, Proximal Least-Squares, Proximal Least-Squares problems, sparse convex optimization, Sparse Convex Optimization, support vector machines, Support vector machines, Support Vector Machines, Synchronization, Synchronization-Avoiding},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\5Z4QQ5VD\\Devarakonda 等。 - 2018 - Avoiding Synchronization in First-Order Methods fo.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\XA8PZ34H\\8425195.html:text/html}
+}
+
+@inproceedings{basu_compiler_2013,
+	title = {Compiler generation and autotuning of communication-avoiding operators for geometric multigrid},
+	doi = {10.1109/HiPC.2013.6799131},
+	abstract = {This paper describes a compiler approach to introducing communication-avoiding optimizations in geometric multigrid ({GMG}), one of the most popular methods for solving partial differential equations. Communication-avoiding optimizations reduce vertical communication through the memory hierarchy and horizontal communication across processes or threads, usually at the expense of introducing redundant computation. We focus on applying these optimizations to the smooth operator, which successively reduces the error and accounts for the largest fraction of the {GMG} execution time. Our compiler technology applies both novel and known transformations to derive an implementation comparable to manually-tuned code. To make the approach portable, an underlying autotuning system explores the tradeoff between reduced communication and increased computation, as well as tradeoffs in threading schemes, to automatically identify the best implementation for a particular architecture and at each computation phase. Results show that we are able to quadruple the performance of the smooth operation on the finest grids while attaining performance within 94\% of manually-tuned code. Overall we improve the overall multigrid solve time by 2.5× without sacrificing programer productivity.},
+	eventtitle = {20th Annual International Conference on High Performance Computing},
+	pages = {452--461},
+	booktitle = {20th Annual International Conference on High Performance Computing},
+	author = {Basu, Protonu and Venkat, Anand and Hall, Mary and Williams, Samuel and Van Straalen, Brian and Oliker, Leonid},
+	date = {2013-12},
+	note = {{ISSN}: 1094-7256},
+	keywords = {Benchmark testing, Color, comm avoiding, communication-avoiding operator autotuning, communication-avoiding optimizations, compiler generation, compiler generators, complier generation, Computer architecture, digital arithmetic, error reduction, geometric multigrid, {GMG} execution time, horizontal communication, Instruction sets, Jacobian matrices, Laplace equations, manually-tuned code, memory hierarchy, optimisation, Optimization, overall multigrid solve time, partial differential equations, redundant computation, threading schemes, vertical communication reduction},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\2D3PMF66\\Basu 等。 - 2013 - Compiler generation and autotuning of communicatio.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\KLTMN7Z3\\6799131.html:text/html}
+}
+
+@article{soori_avoiding_2017,
+	title = {Avoiding Communication in Proximal Methods for Convex Optimization Problems},
+	url = {http://arxiv.org/abs/1710.08883},
+	abstract = {The fast iterative soft thresholding algorithm ({FISTA}) is used to solve convex regularized optimization problems in machine learning. Distributed implementations of the algorithm have become popular since they enable the analysis of large datasets. However, existing formulations of {FISTA} communicate data at every iteration which reduces its performance on modern distributed architectures. The communication costs of {FISTA}, including bandwidth and latency costs, is closely tied to the mathematical formulation of the algorithm. This work reformulates {FISTA} to communicate data at every k iterations and reduce data communication when operating on large data sets. We formulate the algorithm for two different optimization methods on the Lasso problem and show that the latency cost is reduced by a factor of k while bandwidth and floating-point operation costs remain the same. The convergence rates and stability properties of the reformulated algorithms are similar to the standard formulations. The performance of communication-avoiding {FISTA} and Proximal Newton methods is evaluated on 1 to 1024 nodes for multiple benchmarks and demonstrate average speedups of 3-10x with scaling properties that outperform the classical algorithms.},
+	journaltitle = {{arXiv}:1710.08883 [cs, math]},
+	author = {Soori, Saeed and Devarakonda, Aditya and Demmel, James and Gurbuzbalaban, Mert and Dehnavi, Maryam Mehri},
+	urldate = {2020-06-28},
+	date = {2017-10-24},
+	eprinttype = {arxiv},
+	eprint = {1710.08883},
+	keywords = {comm avoiding, Computer Science - Distributed, Parallel, and Cluster Computing, Computer Science - Machine Learning, Mathematics - Numerical Analysis, Mathematics - Optimization and Control, optimization},
+	file = {arXiv Fulltext PDF:F\:\\Linting\\zotero\\storage\\AKD269R5\\Soori 等。 - 2017 - Avoiding Communication in Proximal Methods for Con.pdf:application/pdf;arXiv.org Snapshot:F\:\\Linting\\zotero\\storage\\79ESHFEQ\\1710.html:text/html}
+}
+
+@inproceedings{you_ca-svm_2015,
+	title = {{CA}-{SVM}: Communication-Avoiding Support Vector Machines on Distributed Systems},
+	doi = {10.1109/IPDPS.2015.117},
+	shorttitle = {{CA}-{SVM}},
+	abstract = {We consider the problem of how to design and implement communication-efficient versions of parallel support vector machines, a widely used classifier in statistical machine learning, for distributed memory clusters and supercomputers. The main computational bottleneck is the training phase, in which a statistical model is built from an input data set. Prior to our study, the parallel is efficiency of a state-of-the-art implementation scaled as W = Omega(P3), where W is the problem size and P the number of processors, this scaling is worse than even a one-dimensional block row dense matrix vector multiplication, which has W = Omega(P2). This study considers a series of algorithmic refinements, leading ultimately to a Communication-Avoiding {SVM} ({CASVM}) method that improves the is efficiency to nearly W = Omega(P). We evaluate these methods on 96 to 1536 processors, and show average speedups of 3 - 16× (7× on average) over Dis-{SMO}, and a 95\% weak-scaling efficiency on six real world datasets, with only modest losses in overall classification accuracy. The source code can be downloaded at https://github.com/fastalgo/casvm.},
+	eventtitle = {2015 {IEEE} International Parallel and Distributed Processing Symposium},
+	pages = {847--859},
+	booktitle = {2015 {IEEE} International Parallel and Distributed Processing Symposium},
+	author = {You, Yang and Demmel, James and Czechowski, Kenneth and Song, Le and Vuduc, Richard},
+	date = {2015-05},
+	note = {{ISSN}: 1530-2075},
+	keywords = {Accuracy, {CA}-{SVM}, communication avoidance, communication-avoiding support vector machines, communication-avoiding {SVM} method, communication-efficient versions, dense matrix vector multiplication, distributed memory algorithms, distributed memory clusters, distributed systems, Kernel, learning (artificial intelligence), Mathematical model, parallel machines, parallel processing, parallel support vector machines, Partitioning algorithms, Program processors, statistical analysis, statistical machine learning, statistical model, supercomputers, support vector machines, Support vector machines, Training},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\WUYBWQTC\\You 等。 - 2015 - CA-SVM Communication-Avoiding Support Vector Mach.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\FBF4SXYC\\7161571.html:text/html}
+}
+
+@inproceedings{anderson_communication-avoiding_2011,
+	title = {Communication-Avoiding {QR} Decomposition for {GPUs}},
+	doi = {10.1109/IPDPS.2011.15},
+	abstract = {We describe an implementation of the Communication-Avoiding {QR} ({CAQR}) factorization that runs entirely on a single graphics processor ({GPU}). We show that the reduction in memory traffic provided by {CAQR} allows us to outperform existing parallel {GPU} implementations of {QR} for a large class of tall-skinny matrices. Other {GPU} implementations of {QR} handle panel factorizations by either sending the work to a general-purpose processor or using entirely bandwidth-bound operations, incurring data transfer overheads. In contrast, our {QR} is done entirely on the {GPU} using compute-bound kernels, meaning performance is good regardless of the width of the matrix. As a result, we outperform {CULA}, a parallel linear algebra library for {GPUs} by up to 17x for tall-skinny matrices and Intel's Math Kernel Library ({MKL}) by up to 12x. We also discuss stationary video background subtraction as a motivating application. We apply a recent statistical approach, which requires many iterations of computing the singular value decomposition of a tall-skinny matrix. Using {CAQR} as a first step to getting the singular value decomposition, we are able to get the answer 3x faster than if we use a traditional bandwidth-bound {GPU} {QR} factorization tuned specifically for that matrix size, and 30x faster than if we use Intel's Math Kernel Library ({MKL}) singular value decomposition routine on a multicore {CPU}.},
+	eventtitle = {2011 {IEEE} International Parallel Distributed Processing Symposium},
+	pages = {48--58},
+	booktitle = {2011 {IEEE} International Parallel Distributed Processing Symposium},
+	author = {Anderson, Michael and Ballard, Grey and Demmel, James and Keutzer, Kurt},
+	date = {2011-05},
+	note = {{ISSN}: 1530-2075},
+	keywords = {bandwidth-bound operations, comm avoiding, communication-avoiding {QR} decomposition, communication-avoiding {QR} factorization, compute-bound kernels, computer graphic equipment, coprocessors, {CULA} parallel linear algebra library, data transfer overheads, general-purpose processor, gpu, {GPU}, graphics processing unit, Graphics processing unit, Instruction sets, Intel math kernel library, Kernel, Libraries, Matrix decomposition, principal component analysis, {QR} handle panel factorization, singular value decomposition, statistical approach, tall-skinny matrix, Vegetation, video background subtraction, video signal processing},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\X5Z5ZQEX\\Anderson 等。 - 2011 - Communication-Avoiding QR Decomposition for GPUs.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\Z4ZV5JC8\\6012824.html:text/html}
+}
+@article{grigori_communication_2015,
+	title = {Communication Avoiding {ILU}0 Preconditioner},
+	volume = {37},
+	issn = {1064-8275, 1095-7197},
+	url = {http://epubs.siam.org/doi/10.1137/130930376},
+	doi = {10.1137/130930376},
+	abstract = {In this paper we present a communication avoiding {ILU}0 preconditioner for solving large linear systems of equations by using iterative Krylov subspace methods. Recent research has focused on communication avoiding Krylov subspace methods based on so-called s-step methods. However, there are not many communication avoiding preconditioners yet, and this represents a serious limitation of these methods. Our preconditioner allows us to perform s iterations of the iterative method with no communication, through ghosting some of the input data and performing redundant computation. To avoid communication, an alternating reordering algorithm is introduced for structured and well partitioned unstructured matrices, which requires the input matrix to be ordered by using a graph partitioning technique such as k-way or nested dissection. We show that the reordering does not aﬀect the convergence rate of the {ILU}0 preconditioned system as compared to kway or nested dissection ordering, while it reduces data movement and is expected to reduce the time needed to solve a linear system. In addition to communication avoiding Krylov subspace methods, our preconditioner can be used with classical methods such as {GMRES} to reduce communication.},
+	pages = {C217--C246},
+	number = {2},
+	journaltitle = {{SIAM} Journal on Scientific Computing},
+	shortjournal = {{SIAM} J. Sci. Comput.},
+	author = {Grigori, Laura and Moufawad, Sophie},
+	urldate = {2020-06-28},
+	date = {2015-01},
+	langid = {english},
+	file = {Grigori 和 Moufawad - 2015 - Communication Avoiding ILU0 Preconditioner.pdf:F\:\\Linting\\zotero\\storage\\PY4LK2D7\\Grigori 和 Moufawad - 2015 - Communication Avoiding ILU0 Preconditioner.pdf:application/pdf}
+}
+@article{wy1989,
+	author = {Schreiber, Robert and VanLoan, Charles},
+	year = {1989},
+	month = {02},
+	pages = {},
+	title = {A Storage-Efficient WY Representation for Products of Householder Transformations},
+	volume = {10},
+	journal = {SIAM Journal on Scientific and Statistical Computing},
+	doi = {10.1137/0910005}
+}
+
+@INPROCEEDINGS{6468500,
+	author={E. {Georganas} and J. {Gonzalez-Dominguez} and E. {Solomonik} and Y. {Zheng} and J. {Tourino} and K. {Yelick}},
+	booktitle={SC '12: Proceedings of the International Conference on High Performance Computing, Networking, Storage and Analysis}, 
+	title={Communication avoiding and overlapping for numerical linear algebra}, 
+	year={2012},
+	volume={},
+	number={},
+	pages={1-11},}
+@INPROCEEDINGS{6339142,
+	author={A. {Rafique} and N. {Kapre} and G. A. {Constantinides}},
+	booktitle={22nd International Conference on Field Programmable Logic and Applications (FPL)}, 
+	title={Enhancing performance of Tall-Skinny QR factorization using FPGAs}, 
+	year={2012},
+	volume={},
+	number={},
+	pages={443-450},}
+@inproceedings{10.1145/3373087.3375296,
+	author = {de Fine Licht, Johannes and Kwasniewski, Grzegorz and Hoefler, Torsten},
+	title = {Flexible Communication Avoiding Matrix Multiplication on FPGA with High-Level Synthesis},
+	year = {2020},
+	isbn = {9781450370998},
+	publisher = {Association for Computing Machinery},
+	address = {New York, NY, USA},
+	url = {https://doi.org/10.1145/3373087.3375296},
+	doi = {10.1145/3373087.3375296},
+	booktitle = {The 2020 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},
+	pages = {244–254},
+	numpages = {11},
+	keywords = {gemm, hls, linear algebra, communication avoiding algorithms, high-level synthesis, systolic arrays, i/o optimization, matrix multiplication, fpga, vivado hls},
+	location = {Seaside, CA, USA},
+	series = {FPGA ’20}
+}
+
+@phdthesis{Koanantakool:EECS-2017-221,
+	Author = {Koanantakool, Penporn},
+	Title = {Communication Avoidance for Algorithms with Sparse All-to-all Interactions},
+	School = {EECS Department, University of California, Berkeley},
+	Year = {2017},
+	Month = {Dec},
+	URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2017/EECS-2017-221.html},
+	Number = {UCB/EECS-2017-221},
+	Abstract = {In parallel computing environments from multicore systems to cloud computers and supercomputers, data movement is the dominant cost in both running time and energy usage. Even worse, hardware trends suggest that the gap between computing and data movement, both in memory systems and interconnect networks, will continue to grow. Minimizing communication is therefore necessary in devising scalable parallel algorithms. This work discusses parallelizing kernels in applications ranging from chemistry and cosmology to machine learning.
+	
+	We have developed new communication-avoiding algorithms for problems with all-to-all interactions such as many-body and matrix computations, taking into account their sparsity patterns, either from cutoff distance, symmetry, or data sparsity. Our algorithms are communication-efficient (some are provably optimal) and scalable to tens of thousands of processors, exhibiting orders of magnitude speedup over more commonly used algorithms. 
+	
+	These all-to-all computational patterns arise in scientific simulations and machine learning. The last part of the thesis will present a case study of communication-avoiding sparse-dense matrix multiplication as used in graphical model structure learning. The resulting high-performance sparse inverse covariance matrix estimation algorithm enables processing high-dimensional data with arbitrary underlying structures at a scale that was previously intractable, e.g., 1.28 million dimensions (over 800 billion parameters) in under 21 minutes on 24,576 cores of a Cray XC30. Our method is used to automatically estimate the underlying functional connectivity of the human brain from resting-state fMRI data. The results show good agreement with a state-of-the-art clustering, which used manual intervention, from the neuroscience literature.}
+}
+@techreport{Ballard:EECS-2011-14,
+	Author = {Ballard, Grey and Demmel, James and Dumitriu, Ioana},
+	Title = {Minimizing Communication for Eigenproblems and the Singular  Value Decomposition},
+	Institution = {EECS Department, University of California, Berkeley},
+	Year = {2011},
+	Month = {Feb},
+	URL = {http://www2.eecs.berkeley.edu/Pubs/TechRpts/2011/EECS-2011-14.html},
+	Number = {UCB/EECS-2011-14},
+	Abstract = {Algorithms have two costs: arithmetic and communication. The latter represents the cost of moving data, 
+	either between levels of a memory hierarchy, or between processors over a
+	network. Communication often dominates arithmetic and represents a rapidly increasing proportion of the total cost,
+	so we seek algorithms that minimize communication. In recent work, lower bounds
+	were presented on the amount of communication required for essentially all
+	$O(n^3)$-like algorithms for linear algebra, including eigenvalue problems
+	and the SVD. Conventional algorithms, including those currently implemented in (Sca)LAPACK, perform asymptotically more communication
+	than these lower bounds require. In this paper we present parallel and sequential
+	eigenvalue algorithms
+	(for pencils, nonsymmetric matrices, and symmetric matrices) and SVD algorithms
+	that do attain these lower bounds, and analyze their convergence and communication
+	costs.}
+}
+@article{grigori_calu_2011,
+	title = {{CALU}: A Communication Optimal {LU} Factorization Algorithm},
+	volume = {32},
+	issn = {0895-4798, 1095-7162},
+	url = {http://epubs.siam.org/doi/10.1137/100788926},
+	doi = {10.1137/100788926},
+	shorttitle = {{CALU}},
+	abstract = {Since the cost of communication (moving data) greatly exceeds the cost of doing arithmetic on current and future computing platforms, we are motivated to devise algorithms that communicate as little as possible, even if they do slightly more arithmetic, and as long as they still get the right answer. This paper is about getting the right answer for such an algorithm. It discusses {CALU}, a communication avoiding {LU} factorization algorithm based on a new pivoting strategy, that we refer to as tournament pivoting. The reason to consider {CALU} is that it does an optimal amount of communication, and asymptotically less than Gaussian elimination with partial pivoting ({GEPP}), and so will be much faster on platforms where communication is expensive, as shown in previous work. We show that the Schur complement obtained after each step of performing {CALU} on a matrix A is the same as the Schur complement obtained after performing {GEPP} on a larger matrix whose entries are the same as the entries of A (sometimes slightly perturbed) and zeros. More generally, the entire {CALU} process is equivalent to {GEPP} on a large, but very sparse matrix, formed by entries of A and zeros. Hence we expect that {CALU} will behave as {GEPP} and it will also be very stable in practice. In addition, extensive experiments on random matrices and a set of special matrices show that {CALU} is stable in practice. The upper bound on the growth factor of {CALU} is worse than that of {GEPP}. However, there are Wilkinson-like matrices for which {GEPP} has exponential growth factor, but not {CALU}, and vice-versa.},
+	pages = {1317--1350},
+	number = {4},
+	journaltitle = {{SIAM} Journal on Matrix Analysis and Applications},
+	shortjournal = {{SIAM} J. Matrix Anal. \& Appl.},
+	author = {Grigori, Laura and Demmel, James W. and Xiang, Hua},
+	urldate = {2020-06-28},
+	date = {2011-10},
+	langid = {english},
+	file = {Grigori 等。 - 2011 - CALU A Communication Optimal LU Factorization Alg.pdf:F\:\\Linting\\zotero\\storage\\7STXZYU2\\Grigori 等。 - 2011 - CALU A Communication Optimal LU Factorization Alg.pdf:application/pdf}
+}
+@article{mehridehnavi_communication-avoiding_2013,
+	title = {Communication-Avoiding Krylov Techniques on Graphic Processing Units},
+	volume = {49},
+	issn = {1941-0069},
+	doi = {10.1109/TMAG.2013.2244861},
+	abstract = {Communicating data within the graphic processing unit ({GPU}) memory system and between the {CPU} and {GPU} are major bottlenecks in accelerating Krylov solvers on {GPUs}. Communication-avoiding techniques reduce the communication cost of Krylov subspace methods by computing several vectors of a Krylov subspace “at once,” using a kernel called “matrix powers.” The matrix powers kernel is implemented on a recent generation of {NVIDIA} {GPUs} and speedups of up to 5.7 times are reported for the communication-avoiding matrix powers kernel compared to the standards prase matrix vector multiplication ({SpMV}) implementation.},
+	pages = {1749--1752},
+	number = {5},
+	journaltitle = {{IEEE} Transactions on Magnetics},
+	author = {{MehriDehnavi}, Maryam and El-Kurdi, Yousef and Demmel, James and Giannacopoulos, Dennis},
+	date = {2013-05},
+	note = {Conference Name: {IEEE} Transactions on Magnetics},
+	keywords = {comm avoiding, communication cost, communication-avoiding Krylov techniques, communication-avoiding matrix power kernel, computational complexity, gpu, {GPU} memory system, graphic processing unit memory system, Graphic processors, graphics processing units, Graphics processing units, Kernel, Krylov solvers, Krylov subspace methods, mathematics computing, matrix multiplication, Memory management, Message systems, numerical algorithms, {NVIDIA} {GPU}, parallel algorithms, Sparse matrices, {SpMV} implementation, standard prase matrix vector multiplication implementation, Standards, Vectors},
+	file = {IEEE Xplore Full Text PDF:F\:\\Linting\\zotero\\storage\\XQXT2B5D\\MehriDehnavi 等。 - 2013 - Communication-Avoiding Krylov Techniques on Graphi.pdf:application/pdf;IEEE Xplore Abstract Record:F\:\\Linting\\zotero\\storage\\ZZIJUNLX\\6514719.html:text/html}
+}
+
+@article{grigori_communication_2015-1,
+	title = {Communication Avoiding {ILU}0 Preconditioner},
+	volume = {37},
+	issn = {1064-8275, 1095-7197},
+	url = {http://epubs.siam.org/doi/10.1137/130930376},
+	doi = {10.1137/130930376},
+	abstract = {In this paper we present a communication avoiding {ILU}0 preconditioner for solving large linear systems of equations by using iterative Krylov subspace methods. Recent research has focused on communication avoiding Krylov subspace methods based on so-called s-step methods. However, there are not many communication avoiding preconditioners yet, and this represents a serious limitation of these methods. Our preconditioner allows us to perform s iterations of the iterative method with no communication, through ghosting some of the input data and performing redundant computation. To avoid communication, an alternating reordering algorithm is introduced for structured and well partitioned unstructured matrices, which requires the input matrix to be ordered by using a graph partitioning technique such as k-way or nested dissection. We show that the reordering does not aﬀect the convergence rate of the {ILU}0 preconditioned system as compared to kway or nested dissection ordering, while it reduces data movement and is expected to reduce the time needed to solve a linear system. In addition to communication avoiding Krylov subspace methods, our preconditioner can be used with classical methods such as {GMRES} to reduce communication.},
+	pages = {C217--C246},
+	number = {2},
+	journaltitle = {{SIAM} Journal on Scientific Computing},
+	shortjournal = {{SIAM} J. Sci. Comput.},
+	author = {Grigori, Laura and Moufawad, Sophie},
+	urldate = {2020-06-28},
+	date = {2015-01},
+	langid = {english},
+	file = {Grigori 和 Moufawad - 2015 - Communication Avoiding ILU0 Preconditioner.pdf:F\:\\Linting\\zotero\\storage\\P39Q8T5K\\Grigori 和 Moufawad - 2015 - Communication Avoiding ILU0 Preconditioner.pdf:application/pdf}
+}

@@ -1,0 +1,19 @@
+\contentsline {section}{\numberline {1}Introduction}{1}
+\contentsline {section}{\numberline {2}Tall Skinny QR and Communication Avoiding QR Factorization}{2}
+\contentsline {subsection}{\numberline {2.1}TSQR}{2}
+\contentsline {subsection}{\numberline {2.2}More efficient QR factorization for structured matrices}{3}
+\contentsline {subsection}{\numberline {2.3}CAQR based on TSQR and BLAS 3 Householder}{5}
+\contentsline {paragraph}{$P_1$'s tasks:}{5}
+\contentsline {paragraph}{$P_2$'s tasks:}{5}
+\contentsline {paragraph}{$P_3$'s tasks:}{5}
+\contentsline {subsection}{\numberline {2.4}Model Analysis}{6}
+\contentsline {paragraph}{TSQR}{7}
+\contentsline {paragraph}{Updating trailing matrix}{7}
+\contentsline {paragraph}{CAQR}{8}
+\contentsline {subsection}{\numberline {2.5}Performance test}{8}
+\contentsline {section}{\numberline {3}Communication Avoiding LU Factorization}{9}
+\contentsline {subsection}{\numberline {3.1}TSLU}{9}
+\contentsline {subsection}{\numberline {3.2}Whole CALU and Model Analysis}{9}
+\contentsline {subsection}{\numberline {3.3}Model Analysis}{15}
+\contentsline {subsection}{\numberline {3.4}Performance}{15}
+\contentsline {section}{\numberline {4}Discussions and Possible Future Work}{15}

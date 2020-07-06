@@ -1,0 +1,56 @@
+\documentclass{article}
+\usepackage[ruled, linesnumbered]{algorithm2e}
+\def\showtopic{Parallel Computing}
+\def\showtitle{Introduction to Communication Avoiding Algorithms}
+\def\showabs{Comm Avoiding Algs}
+\def\showauthor{Ting Lin, 1700010644}
+\def\showchead{LIN}
+\input{preamble.tex}
+\DeclareMathOperator{\size}{size}
+\DeclareMathOperator{\maxd}{\max\nolimits^\delta}
+\DeclareMathOperator{\nhi}{\mathcal N_h^{I}}
+\DeclareMathOperator{\nhp}{\mathcal N_h^{\partial}}
+\DeclareMathOperator{\mind}{\min\nolimits^\delta}
+\DeclareMathOperator{\MA}{MA}
+\DeclareMathOperator{\MAJ}{MAJ}
+\newcommand{\bV}{\mathbb V}
+\begin{document}
+	\maketitle
+	\thispagestyle{fancy}
+	\tableofcontents
+	
+	\section*{}
+ In this report we introduce communication avoiding algorithms, which is
+ 
+ 
+ \section{Introduction}
+ Algorithms often have two parts of costs: Computation and Communication. Communication can happen in move data between either different levels of memory (in sequential case) or processors through network (in parallel case). The (time) cost in communication can be modeled by \textbf{alpha-beta} model, which means that we move $n$ words in one message will take $\alpha + \beta n$ time unit, where $\alpha$ is latency and $\beta$ is the inverse of bandwidth. Moreover, we use $\gamma$ to denote cost time per FLOP. Typically, we have $$\gamma << \beta << \alpha,$$ and the gap grows exponentially, inspired by Moore's law. A good algorithm, even in sequential case, should minimize the communication cost.
+ 
+ 
+In past two decades, communication avoiding algorithms, including \todo{cite}, have been proposed and well studied. Most of them are superior in theory and practice. In this report, we introduce communication avoiding algorithm in 
+\begin{enumerate}
+	\item Dense Linear Algebra: LU and QR factorization
+	\item Sparse Linear Algebra: Krylov Subspace Methods
+	\item Preconditioners: ILU Factorization
+\end{enumerate}
+
+
+
+ \section{Communication Avoiding LU Factorization}
+ 
+ \section{Tall Skinny QR and Communication Avoiding QR Factorization}
+ 
+ \section{Communication Avoiding Krylov Subspace Methods}
+ 
+ \section{Enlarged Krylov Subspace Methods}
+ 
+ \section{Communication Avoiding ILU Preconditioner}
+ 
+ \section{Discussion}
+\end{document}
+
+
+
+
+
+Escape special TeX symbols (%, &, _, #, $)

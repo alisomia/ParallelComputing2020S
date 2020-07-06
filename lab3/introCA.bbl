@@ -1,0 +1,133 @@
+\begin{thebibliography}{10}
+
+\bibitem{demmel_communication-optimal_2012}
+James Demmel, Laura Grigori, Mark Hoemmen, and Julien Langou.
+\newblock Communication-optimal parallel and sequential {QR} and {LU}
+  factorizations.
+\newblock 34(1):A206--A239.
+
+\bibitem{grigori_introduction_nodate}
+Laura Grigori and Inria Rocquencourt.
+\newblock Introduction to communication avoiding linear algebra algorithms in
+  high performance computing.
+\newblock page~11.
+
+\bibitem{ballard_communication_2014}
+G.~Ballard, E.~Carson, J.~Demmel, M.~Hoemmen, N.~Knight, and O.~Schwartz.
+\newblock Communication lower bounds and optimal algorithms for numerical
+  linear algebra.
+\newblock 23:1--155.
+
+\bibitem{6468500}
+E.~{Georganas}, J.~{Gonzalez-Dominguez}, E.~{Solomonik}, Y.~{Zheng},
+  J.~{Tourino}, and K.~{Yelick}.
+\newblock Communication avoiding and overlapping for numerical linear algebra.
+\newblock In {\em SC '12: Proceedings of the International Conference on High
+  Performance Computing, Networking, Storage and Analysis}, pages 1--11, 2012.
+
+\bibitem{demmel_avoiding_2008}
+James Demmel, Mark Hoemmen, Marghoob Mohiyuddin, and Katherine Yelick.
+\newblock Avoiding communication in sparse matrix computations.
+\newblock In {\em 2008 {IEEE} International Symposium on Parallel and
+  Distributed Processing}, pages 1--12. {IEEE}.
+\newblock {ISSN}: 1530-2075.
+
+\bibitem{mohiyuddin_minimizing_2009}
+Marghoob Mohiyuddin, Mark Hoemmen, James Demmel, and Katherine Yelick.
+\newblock Minimizing communication in sparse matrix solvers.
+\newblock In {\em Proceedings of the Conference on High Performance Computing
+  Networking, Storage and Analysis}, pages 1--12.
+\newblock {ISSN}: 2167-4337.
+
+\bibitem{hoemmen_communication-avoiding_nodate}
+Mark~Frederick Hoemmen.
+\newblock Communication-avoiding krylov subspace methods.
+\newblock page 358.
+
+\bibitem{grigori_enlarged_2016}
+Laura Grigori, Sophie Moufawad, and Frederic Nataf.
+\newblock Enlarged krylov subspace conjugate gradient methods for reducing
+  communication.
+\newblock 37(2):744--773.
+
+\bibitem{Ballard:EECS-2011-14}
+Grey Ballard, James Demmel, and Ioana Dumitriu.
+\newblock Minimizing communication for eigenproblems and the singular value
+  decomposition.
+\newblock Technical Report UCB/EECS-2011-14, EECS Department, University of
+  California, Berkeley, Feb 2011.
+
+\bibitem{grigori_communication_2015}
+Laura Grigori and Sophie Moufawad.
+\newblock Communication avoiding {ILU}0 preconditioner.
+\newblock 37(2):C217--C246.
+
+\bibitem{soori_avoiding_2017}
+Saeed Soori, Aditya Devarakonda, James Demmel, Mert Gurbuzbalaban, and
+  Maryam~Mehri Dehnavi.
+\newblock Avoiding communication in proximal methods for convex optimization
+  problems.
+
+\bibitem{you_ca-svm_2015}
+Yang You, James Demmel, Kenneth Czechowski, Le~Song, and Richard Vuduc.
+\newblock {CA}-{SVM}: Communication-avoiding support vector machines on
+  distributed systems.
+\newblock In {\em 2015 {IEEE} International Parallel and Distributed Processing
+  Symposium}, pages 847--859.
+\newblock {ISSN}: 1530-2075.
+
+\bibitem{Koanantakool:EECS-2017-221}
+Penporn Koanantakool.
+\newblock {\em Communication Avoidance for Algorithms with Sparse All-to-all
+  Interactions}.
+\newblock PhD thesis, EECS Department, University of California, Berkeley, Dec
+  2017.
+
+\bibitem{wy1989}
+Robert Schreiber and Charles VanLoan.
+\newblock A storage-efficient wy representation for products of householder
+  transformations.
+\newblock {\em SIAM Journal on Scientific and Statistical Computing}, 10, 02
+  1989.
+
+\bibitem{grigori_communication_2008}
+Laura Grigori, James~W. Demmel, and Hua Xiang.
+\newblock Communication avoiding gaussian elimination.
+\newblock In {\em {SC} '08: Proceedings of the 2008 {ACM}/{IEEE} Conference on
+  Supercomputing}, pages 1--12.
+\newblock {ISSN}: 2167-4337.
+
+\bibitem{grigori_calu_2011}
+Laura Grigori, James~W. Demmel, and Hua Xiang.
+\newblock {CALU}: A communication optimal {LU} factorization algorithm.
+\newblock 32(4):1317--1350.
+
+\bibitem{anderson_communication-avoiding_2011}
+Michael Anderson, Grey Ballard, James Demmel, and Kurt Keutzer.
+\newblock Communication-avoiding {QR} decomposition for {GPUs}.
+\newblock In {\em 2011 {IEEE} International Parallel Distributed Processing
+  Symposium}, pages 48--58.
+\newblock {ISSN}: 1530-2075.
+
+\bibitem{mehridehnavi_communication-avoiding_2013}
+Maryam {MehriDehnavi}, Yousef El-Kurdi, James Demmel, and Dennis
+  Giannacopoulos.
+\newblock Communication-avoiding krylov techniques on graphic processing units.
+\newblock 49(5):1749--1752.
+\newblock Conference Name: {IEEE} Transactions on Magnetics.
+
+\bibitem{10.1145/3373087.3375296}
+Johannes de~Fine~Licht, Grzegorz Kwasniewski, and Torsten Hoefler.
+\newblock Flexible communication avoiding matrix multiplication on fpga with
+  high-level synthesis.
+\newblock In {\em The 2020 ACM/SIGDA International Symposium on
+  Field-Programmable Gate Arrays}, FPGA ’20, page 244–254, New York, NY,
+  USA, 2020. Association for Computing Machinery.
+
+\bibitem{6339142}
+A.~{Rafique}, N.~{Kapre}, and G.~A. {Constantinides}.
+\newblock Enhancing performance of tall-skinny qr factorization using fpgas.
+\newblock In {\em 22nd International Conference on Field Programmable Logic and
+  Applications (FPL)}, pages 443--450, 2012.
+
+\end{thebibliography}
